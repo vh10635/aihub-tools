@@ -25,7 +25,7 @@ export const askAiHub = createServerFn({ method: 'POST' })
   .handler(async ({ data }): Promise<{ ok: boolean; answer: string; picks: string[]; error?: string }> => {
     const ip = getRequestHeader('cf-connecting-ip') || getRequestHeader('x-forwarded-for') || 'anon';
     if (limited(ip)) return { ok: false, answer: '', picks: [], error: 'rate_limited' };
-    const key = process.env.LOVABLE_API_KEY;
+    const key = process.env['LOVABLE_API_KEY'];
     if (!key) return { ok: false, answer: '', picks: [], error: 'not_configured' };
     const list = data.candidates.map(c => `- ${c.name} | ${c.category} | ${c.price} | ${c.description}`).join('\n');
     try {
