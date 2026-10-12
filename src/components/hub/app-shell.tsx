@@ -1,14 +1,14 @@
 import { Link, useLocation } from '@tanstack/react-router';
 import { ArrowUpRight, Grid2X2, Clapperboard, Download, Menu, X, Sparkles, MessageSquare, PenLine, Palette, AudioLines, Code2, Globe, GraduationCap, BriefcaseBusiness, Megaphone, Workflow, ChartNoAxesCombined, Headphones, Languages, FlaskConical, Gift, ChevronRight } from 'lucide-react';
 import { useState, type ReactNode } from 'react';
-import logo from '@/assets/hub-logo.png';
+import { BrandMark } from '@/components/hub/brand-mark';
 import { Button } from '@/components/ui/button';
 import { categories, categoryLabels, uniqueTools } from '@/data/directory';
 export const categoryIcons = [MessageSquare, PenLine, Palette, Clapperboard, AudioLines, Code2, Globe, GraduationCap, BriefcaseBusiness, Megaphone, Workflow, ChartNoAxesCombined, Headphones, Languages, FlaskConical, Gift];
 export function AppShell({ children, category = 'all', onCategory }: { children: ReactNode; category?: string; onCategory?: (value: string) => void }) {
  const location = useLocation(); const [menu, setMenu] = useState(false);
  return <div className="app-layout"><aside className={`sidebar ${menu ? 'sidebar-open' : ''}`}>
-  <Link to="/" className="brand"><img src={logo} width={36} height={36} alt="" /><span>AI<span className="brand-hub"> Hub</span><span className="brand-dot">.</span></span></Link>
+   <Link to="/" className="brand"><BrandMark/><span>AI<span className="brand-hub"> Hub</span><span className="brand-dot">.</span></span></Link>
   <div className="sidebar-caption">YOUR NEXT BIG IDEA STARTS HERE</div>
   <nav className="main-nav" aria-label="Main navigation"><Link to="/" className={location.pathname === '/' ? 'nav-item active' : 'nav-item'} onClick={() => { onCategory?.('all'); setMenu(false); }}><Grid2X2 size={18} />Discover tools<span className="nav-count">{uniqueTools.length}</span></Link><Link to="/video-toolkit" className={location.pathname === '/video-toolkit' ? 'nav-item active' : 'nav-item'} onClick={() => setMenu(false)}><Clapperboard size={18} />Video toolkit<ChevronRight size={15} /></Link></nav>
   <div className="sidebar-section-label">EXPLORE CATEGORIES</div><nav className="category-nav" aria-label="Categories">{categories.map((c,i) => {const Icon=categoryIcons[i] ?? Grid2X2; return onCategory ? <Button key={c.name} variant="ghost" className={`category-nav-item ${category === c.name ? 'selected' : ''}`} onClick={() => {onCategory(c.name);setMenu(false);}}><Icon size={17}/><span>{categoryLabels[i]}</span></Button> : <Link key={c.name} to="/" className="category-nav-item"><Icon size={17}/><span>{categoryLabels[i]}</span></Link>;})}</nav>
