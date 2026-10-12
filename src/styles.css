@@ -159,3 +159,25 @@ h1,h2,h3 {font-family:var(--font-heading);letter-spacing:0;} button,input,select
 @media(max-width:1100px){.sidebar{width:218px;padding:26px 14px 16px}.workspace{margin-left:218px;width:calc(100% - 218px)}.discover-main{padding:24px}.topbar{padding:0 24px}.hero-copy{width:65%;padding:27px 25px}.hero-copy h1 span{font-size:31px}.hero-links{gap:12px}.hero-note{display:none}.directory-heading{align-items:flex-start;flex-direction:column}.tool-list .tool-card{grid-template-columns:120px 120px 1fr}.tool-list .tool-card-bottom{grid-column:2/-1}.heading-aside{display:none}.page-footer{margin:0 24px}.search-hint{display:none}}
 @media(max-width:760px){.sidebar{transform:translateX(-100%);width:250px;transition:transform .2s}.sidebar-open{transform:translateX(0);box-shadow:10px 0 30px oklch(0.25 0 0 / .15)}.workspace{margin-left:0;width:100%}.mobile-menu{display:inline-flex}.topbar{height:65px;padding:0 16px}.curated-label{display:none}.topbar-right{gap:8px}.discover-main{padding:18px 16px 0}.discovery-hero{min-height:330px}.hero-image{object-position:45% center;opacity:.55}.hero-copy{width:100%;padding:26px 22px}.hero-copy h1 span{font-size:33px}.hero-copy p{color:var(--foreground);font-size:12px}.hero-links{gap:18px}.featured-grid,.tool-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.featured-grid .tool-card:last-child{display:none}.tool-card{padding:16px 14px 8px}.section-heading h2{font-size:19px}.directory-controls{gap:8px;flex-wrap:wrap;width:100%}.view-switch{margin-left:auto}.sort-select{gap:3px}.tool-card h3{font-size:14px;overflow-wrap:anywhere}.tool-description{font-size:11px;min-height:52px}.tool-card-top{margin-bottom:13px}.tool-mark{width:36px;height:36px}.price-badge{font-size:8px}.tool-category{font-size:8px}.page-footer{margin:0 16px;flex-wrap:wrap;font-size:8px}.page-footer>span:nth-child(2){display:none}.tool-list{grid-template-columns:1fr}.tool-list .tool-card{grid-template-columns:110px 1fr;gap:10px}.tool-list .tool-description{grid-column:1/-1}.tool-list .tool-card-bottom{grid-column:1/-1}.workflow-strip{grid-template-columns:repeat(2,1fr)}.page-intro h1{font-size:28px}.page-intro h1 span{font-size:18px}.install-grid{grid-template-columns:1fr}.install-intro h1{font-size:28px}.install-availability{font-size:11px}.hero-links a{font-size:10px}.breadcrumb{gap:8px}.sidebar-caption{font-size:8px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+.ai-search{margin:28px 0 8px;padding:28px;border:1px solid var(--border);border-radius:24px;background:var(--card);box-shadow:0 18px 50px -30px color-mix(in oklab,var(--foreground) 35%,transparent)}
+.ai-search h2{display:flex;align-items:center;gap:10px;font-size:1.6rem;font-weight:700;margin:0 0 16px;color:var(--foreground)}
+.ai-search h2 svg{color:var(--primary)}
+.ai-search-box{border:1.5px solid var(--border);border-radius:18px;background:var(--background);padding:14px 14px 10px;transition:border-color .2s}
+.ai-search-box:focus-within{border-color:var(--primary)}
+.ai-search-box textarea{width:100%;resize:none;border:0;outline:0;background:transparent;font-size:1.05rem;color:var(--foreground)}
+.ai-search-actions{display:flex;align-items:center;gap:10px;justify-content:flex-end}
+.ai-search-actions select{border:1px solid var(--border);border-radius:999px;padding:6px 12px;background:var(--card);color:var(--foreground);font-size:.85rem}
+.ai-count{font-size:.75rem;color:var(--muted-foreground);margin-right:auto;order:-1}
+.ai-search-actions button[type=submit]{border-radius:999px}
+.ai-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.ai-chips button{border:1px solid var(--border);border-radius:999px;padding:7px 14px;font-size:.85rem;background:var(--background);color:var(--foreground);cursor:pointer;transition:all .2s}
+.ai-chips button:hover{border-color:var(--primary);color:var(--primary)}
+.ai-results{margin-top:22px}
+.ai-loading{display:flex;align-items:center;gap:10px;color:var(--muted-foreground)}
+.ai-answer{font-size:1rem;line-height:1.65;padding:16px 18px;border-radius:16px;background:var(--muted);color:var(--foreground);margin-bottom:18px}
+.tool-logo{border-radius:8px;object-fit:contain;display:inline-flex}
+.tool-logo-fallback{align-items:center;justify-content:center;background:var(--primary);color:var(--primary-foreground);font-weight:700;font-size:1rem}
+.platform-logo{display:inline-block;vertical-align:middle;margin-right:6px}
+.platform-emoji{display:inline-block;margin-right:6px}
+.platform-browser{display:flex;align-items:center;flex-wrap:wrap;gap:2px}
