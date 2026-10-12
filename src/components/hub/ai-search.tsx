@@ -1,11 +1,12 @@
 import { useState } from 'react';
-import { ArrowUp, Loader2, Sparkles } from 'lucide-react';
+import { ArrowUp, Loader2, Sparkles, Clapperboard, PenLine, Code2, FileText, AudioLines } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ToolCard, type Tool } from '@/components/hub/tool-card';
 import { uniqueTools } from '@/data/directory';
 import { askAiHub } from '@/lib/ai-search.functions';
 
 const examples = ['Make a cartoon video for kids', 'Write a blog post and fix grammar', 'Build a website without coding', 'Turn a PDF into study notes', 'Natural voiceover for my video'];
+const exampleIcons = [Clapperboard, PenLine, Code2, FileText, AudioLines];
 const stop = new Set('i want to a an the and or for my me of in on with make need some help how do can it is be that this from into without'.split(' '));
 
 function keywordMatch(q: string, freeOnly: boolean): Tool[] {
@@ -42,7 +43,7 @@ export function AiSearch() {
   }
 
   return <section className="ai-search" aria-labelledby="ai-search-title">
-    <h2 id="ai-search-title"><Sparkles size={20} />Tell us what you want to do.</h2>
+    <h2 id="ai-search-title"><Sparkles size={26} /><span>Tell us <span className="gradient-prompt">what you want to do.</span></span></h2>
     <form className="ai-search-box" onSubmit={e => { e.preventDefault(); run(text); }}>
       <textarea aria-label="Describe what you want to do" maxLength={300} rows={2} placeholder="e.g. I want to make cartoon videos for my kids YouTube channel" value={text} onChange={e => setText(e.target.value)} onKeyDown={e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); run(text); } }} />
       <div className="ai-search-actions">
@@ -51,8 +52,8 @@ export function AiSearch() {
         <Button type="submit" size="icon" aria-label="Ask AI Hub" disabled={loading || !text.trim()}>{loading ? <Loader2 className="animate-spin" /> : <ArrowUp />}</Button>
       </div>
     </form>
-    <div className="ai-chips">{examples.map(x => <button type="button" key={x} onClick={() => run(x)} disabled={loading}>{x}</button>)}</div>
-    {loading && <div className="ai-results ai-loading"><Loader2 className="animate-spin" size={18} />Finding the best tools for you…</div>}
-    {result && <div className="ai-results"><p className="ai-answer">{result.answer}</p><div className="tool-grid">{result.tools.map(t => <ToolCard key={t.name} tool={t} />)}</div></div>}
+    <div className="ai-chips">{examples.map((x, i) => { const Icon = exampleIcons[i] ?? Sparkles; return <Button variant="outline" type="button" key={x} onClick={() => run(x)} disabled={loading}><Icon size={16}/>{x}</Button>; })}</div>
+    {loading && <div className="ai-results ai-loading" role="status"><Loader2 className="animate-spin" size={18} />Finding the best tools for you…</div>}
+    {result && <div className="ai-results" aria-live="polite"><p className="ai-answer">{result.answer}</p><div className="tool-grid">{result.tools.map(t => <ToolCard key={t.name} tool={t} />)}</div></div>}
   </section>;
 }

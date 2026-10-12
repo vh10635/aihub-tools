@@ -12,4 +12,5 @@
 ## Application architecture
 - Keep the uploaded directory data in a shared data module and render directory, video workflow, and installation as distinct TanStack routes so every original feature remains accessible.
 - Use a shared application shell and global semantic design tokens to keep the visual identity consistent across pages.
+- Keep the discovery banner and brand mark in reusable presentation components, with bundled robot artwork and live DOM text and controls, so the reference design remains functional and fast-loading.
 - Keep installation assets in public and register a network-first navigation service worker so the installable app does not cache stale pages.
