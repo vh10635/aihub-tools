@@ -1,0 +1,1590 @@
+{
+  "categories": [
+    {
+      "name": "Chatbots and assistants",
+      "tools": [
+        [
+          "ChatGPT",
+          "chatgpt.com",
+          "Writing, research, images, data analysis",
+          "Freemium"
+        ],
+        [
+          "Google Gemini",
+          "gemini.google.com",
+          "Research, writing, Google integrations",
+          "Freemium"
+        ],
+        [
+          "Claude",
+          "claude.ai",
+          "Writing, document analysis, reasoning, coding",
+          "Freemium"
+        ],
+        [
+          "Microsoft Copilot",
+          "copilot.microsoft.com",
+          "Productivity, search, Microsoft integrations",
+          "Freemium"
+        ],
+        [
+          "Perplexity",
+          "perplexity.ai",
+          "AI web research with sources",
+          "Freemium"
+        ],
+        [
+          "Grok",
+          "grok.com",
+          "General chat assistant",
+          "Freemium"
+        ],
+        [
+          "DeepSeek",
+          "chat.deepseek.com",
+          "Chat, reasoning and coding",
+          "Freemium"
+        ],
+        [
+          "Meta AI",
+          "meta.ai",
+          "Free assistant from Meta",
+          "Free"
+        ],
+        [
+          "Poe",
+          "poe.com",
+          "Many AI models in one place",
+          "Freemium"
+        ],
+        [
+          "Mistral Le Chat",
+          "chat.mistral.ai",
+          "Fast general assistant",
+          "Freemium"
+        ],
+        [
+          "Qwen Chat",
+          "chat.qwen.ai",
+          "Chat from Alibaba Qwen models",
+          "Freemium"
+        ],
+        [
+          "Kimi",
+          "kimi.com",
+          "Long-document chat assistant",
+          "Freemium"
+        ],
+        [
+          "Pi",
+          "pi.ai",
+          "Friendly personal AI. Availability may vary",
+          "Varies"
+        ],
+        [
+          "You.com",
+          "you.com",
+          "AI search and chat",
+          "Freemium"
+        ]
+      ]
+    },
+    {
+      "name": "Writing and content",
+      "tools": [
+        [
+          "Grammarly",
+          "grammarly.com",
+          "Grammar and rewriting",
+          "Freemium"
+        ],
+        [
+          "QuillBot",
+          "quillbot.com",
+          "Paraphrasing and summaries",
+          "Freemium"
+        ],
+        [
+          "Jasper",
+          "jasper.ai",
+          "Marketing content",
+          "Paid"
+        ],
+        [
+          "Copy.ai",
+          "copy.ai",
+          "Sales and marketing copy",
+          "Freemium"
+        ],
+        [
+          "Writesonic",
+          "writesonic.com",
+          "Articles and SEO content",
+          "Freemium"
+        ],
+        [
+          "Rytr",
+          "rytr.me",
+          "Short-form writing",
+          "Freemium"
+        ],
+        [
+          "Wordtune",
+          "wordtune.com",
+          "Rewriting and editing",
+          "Freemium"
+        ],
+        [
+          "Sudowrite",
+          "sudowrite.com",
+          "Fiction and creative writing",
+          "Paid"
+        ],
+        [
+          "ProWritingAid",
+          "prowritingaid.com",
+          "Editing and long-form writing",
+          "Freemium"
+        ],
+        [
+          "DeepL Write",
+          "deepl.com/write",
+          "Writing improvements",
+          "Freemium"
+        ],
+        [
+          "LanguageTool",
+          "languagetool.org",
+          "Grammar and spelling",
+          "Freemium"
+        ],
+        [
+          "Anyword",
+          "anyword.com",
+          "Marketing copy",
+          "Paid"
+        ]
+      ]
+    },
+    {
+      "name": "Image and graphic design",
+      "tools": [
+        [
+          "Midjourney",
+          "midjourney.com",
+          "Detailed, artistic, photorealistic images",
+          "Paid"
+        ],
+        [
+          "Canva AI",
+          "canva.com",
+          "Posters, logos, presentations, thumbnails",
+          "Freemium"
+        ],
+        [
+          "Adobe Firefly",
+          "firefly.adobe.com",
+          "Image generation, editing, creative effects",
+          "Freemium"
+        ],
+        [
+          "Ideogram",
+          "ideogram.ai",
+          "Images with readable text",
+          "Freemium"
+        ],
+        [
+          "Leonardo AI",
+          "leonardo.ai",
+          "Game art and concept images",
+          "Freemium"
+        ],
+        [
+          "Recraft",
+          "recraft.ai",
+          "Vector art and design images",
+          "Freemium"
+        ],
+        [
+          "FLUX",
+          "bfl.ai",
+          "Open image models plus paid services",
+          "Freemium"
+        ],
+        [
+          "Stable Diffusion",
+          "stability.ai",
+          "Open-source image models plus paid services",
+          "Freemium"
+        ],
+        [
+          "Microsoft Designer",
+          "designer.microsoft.com",
+          "Quick social and marketing designs",
+          "Freemium"
+        ],
+        [
+          "Google ImageFX",
+          "labs.google/fx/tools/image-fx",
+          "Image generation. Access varies",
+          "Varies"
+        ],
+        [
+          "DreamStudio",
+          "dreamstudio.ai",
+          "Stable Diffusion with paid credits",
+          "Paid"
+        ],
+        [
+          "Playground AI",
+          "playground.com",
+          "Image maker with design editor",
+          "Freemium"
+        ],
+        [
+          "Krea AI",
+          "krea.ai",
+          "Real-time images and upscaling",
+          "Freemium"
+        ],
+        [
+          "Picsart AI",
+          "picsart.com",
+          "Photo editing and AI effects",
+          "Freemium"
+        ],
+        [
+          "Fotor AI",
+          "fotor.com",
+          "Photo editing and AI art",
+          "Freemium"
+        ],
+        [
+          "Photoroom",
+          "photoroom.com",
+          "Product photos and backgrounds",
+          "Freemium"
+        ],
+        [
+          "Remove.bg",
+          "remove.bg",
+          "Remove backgrounds. Previews free",
+          "Freemium"
+        ],
+        [
+          "Clipdrop",
+          "clipdrop.co",
+          "Image tools and cleanup",
+          "Freemium"
+        ]
+      ]
+    },
+    {
+      "name": "Video generation and editing",
+      "tools": [
+        [
+          "Runway",
+          "runwayml.com",
+          "AI video generation and editing",
+          "Freemium"
+        ],
+        [
+          "Sora",
+          "sora.com",
+          "Video generation. Access depends on plan",
+          "Varies"
+        ],
+        [
+          "Google Veo",
+          "deepmind.google/models/veo",
+          "AI video generation. Limited access",
+          "Varies"
+        ],
+        [
+          "Kling AI",
+          "klingai.com",
+          "Text and image to video",
+          "Freemium"
+        ],
+        [
+          "Pika",
+          "pika.art",
+          "Creative AI video",
+          "Freemium"
+        ],
+        [
+          "Luma Dream Machine",
+          "lumalabs.ai",
+          "Cinematic AI video",
+          "Freemium"
+        ],
+        [
+          "Hailuo AI",
+          "hailuoai.video",
+          "Text to video",
+          "Freemium"
+        ],
+        [
+          "PixVerse",
+          "pixverse.ai",
+          "AI video effects",
+          "Freemium"
+        ],
+        [
+          "InVideo AI",
+          "invideo.io",
+          "Videos from prompts",
+          "Freemium"
+        ],
+        [
+          "VEED",
+          "veed.io",
+          "Browser-based video editing",
+          "Freemium"
+        ],
+        [
+          "Descript",
+          "descript.com",
+          "Video and audio editing",
+          "Freemium"
+        ],
+        [
+          "CapCut",
+          "capcut.com",
+          "Short videos and reels",
+          "Freemium"
+        ],
+        [
+          "OpusClip",
+          "opus.pro",
+          "Turn long videos into clips",
+          "Freemium"
+        ],
+        [
+          "HeyGen",
+          "heygen.com",
+          "AI avatar videos",
+          "Freemium"
+        ],
+        [
+          "Synthesia",
+          "synthesia.io",
+          "Presenter and training videos",
+          "Freemium"
+        ],
+        [
+          "D-ID",
+          "d-id.com",
+          "Talking-avatar videos",
+          "Freemium"
+        ],
+        [
+          "Captions",
+          "captions.ai",
+          "Talking videos and captions",
+          "Freemium"
+        ],
+        [
+          "Vyond",
+          "vyond.com",
+          "Animated business videos",
+          "Paid"
+        ]
+      ]
+    },
+    {
+      "name": "Voice, music and audio",
+      "tools": [
+        [
+          "ElevenLabs",
+          "elevenlabs.io",
+          "Voiceovers and speech generation",
+          "Freemium"
+        ],
+        [
+          "Murf AI",
+          "murf.ai",
+          "Professional voiceovers",
+          "Freemium"
+        ],
+        [
+          "Speechify",
+          "speechify.com",
+          "Text to speech",
+          "Freemium"
+        ],
+        [
+          "NaturalReader",
+          "naturalreaders.com",
+          "Read documents aloud",
+          "Freemium"
+        ],
+        [
+          "PlayHT",
+          "play.ht",
+          "AI voice generation",
+          "Freemium"
+        ],
+        [
+          "Suno",
+          "suno.com",
+          "Create songs with AI",
+          "Freemium"
+        ],
+        [
+          "Udio",
+          "udio.com",
+          "AI music generation",
+          "Freemium"
+        ],
+        [
+          "AIVA",
+          "aiva.ai",
+          "Compose music",
+          "Freemium"
+        ],
+        [
+          "Soundraw",
+          "soundraw.io",
+          "Background music",
+          "Paid"
+        ],
+        [
+          "Beatoven.ai",
+          "beatoven.ai",
+          "Music for videos",
+          "Freemium"
+        ],
+        [
+          "Adobe Podcast",
+          "podcast.adobe.com",
+          "Voice cleanup and enhancement",
+          "Freemium"
+        ],
+        [
+          "Krisp",
+          "krisp.ai",
+          "Noise cancellation",
+          "Freemium"
+        ],
+        [
+          "LALAL.AI",
+          "lalal.ai",
+          "Separate vocals and instruments",
+          "Freemium"
+        ],
+        [
+          "Moises",
+          "moises.ai",
+          "Music separation and practice",
+          "Freemium"
+        ],
+        [
+          "Whisper",
+          "github.com/openai/whisper",
+          "Speech transcription. Open source",
+          "Free"
+        ]
+      ]
+    },
+    {
+      "name": "Coding and software development",
+      "tools": [
+        [
+          "GitHub Copilot",
+          "github.com/features/copilot",
+          "Coding suggestions and chat",
+          "Freemium"
+        ],
+        [
+          "Cursor",
+          "cursor.com",
+          "AI-powered code editor",
+          "Freemium"
+        ],
+        [
+          "Windsurf",
+          "windsurf.com",
+          "AI coding and agent workflows",
+          "Freemium"
+        ],
+        [
+          "Replit",
+          "replit.com",
+          "Build and deploy apps",
+          "Freemium"
+        ],
+        [
+          "Lovable",
+          "lovable.dev",
+          "Create web apps from prompts",
+          "Freemium"
+        ],
+        [
+          "Bolt.new",
+          "bolt.new",
+          "Build web apps from prompts",
+          "Freemium"
+        ],
+        [
+          "v0",
+          "v0.dev",
+          "Generate UI and web code",
+          "Freemium"
+        ],
+        [
+          "Tabnine",
+          "tabnine.com",
+          "AI code completion",
+          "Paid"
+        ],
+        [
+          "Amazon Q Developer",
+          "aws.amazon.com/q/developer",
+          "Coding and AWS development",
+          "Freemium"
+        ],
+        [
+          "Gemini Code Assist",
+          "codeassist.google",
+          "Coding help and completion",
+          "Freemium"
+        ],
+        [
+          "Sourcegraph Cody",
+          "sourcegraph.com/cody",
+          "Understand and edit codebases",
+          "Varies"
+        ],
+        [
+          "Continue",
+          "continue.dev",
+          "Open-source coding assistant",
+          "Free"
+        ],
+        [
+          "Aider",
+          "aider.chat",
+          "AI coding in the terminal",
+          "Free"
+        ],
+        [
+          "Cline",
+          "cline.bot",
+          "Autonomous coding agent",
+          "Free"
+        ],
+        [
+          "Roo Code",
+          "roocode.com",
+          "Coding agent for VS Code",
+          "Free"
+        ],
+        [
+          "Devin",
+          "devin.ai",
+          "AI software engineering agent",
+          "Paid"
+        ],
+        [
+          "OpenHands",
+          "all-hands.dev",
+          "Open-source coding agents",
+          "Free"
+        ]
+      ]
+    },
+    {
+      "name": "Website and app builders",
+      "tools": [
+        [
+          "Framer AI",
+          "framer.com",
+          "Website design",
+          "Freemium"
+        ],
+        [
+          "Webflow AI",
+          "webflow.com",
+          "Business websites",
+          "Freemium"
+        ],
+        [
+          "Wix AI",
+          "wix.com",
+          "Website creation",
+          "Freemium"
+        ],
+        [
+          "Hostinger AI Website Builder",
+          "hostinger.com/ai-website-builder",
+          "Websites and landing pages",
+          "Paid"
+        ],
+        [
+          "Durable",
+          "durable.co",
+          "Small-business websites",
+          "Paid"
+        ],
+        [
+          "10Web",
+          "10web.io",
+          "AI WordPress websites",
+          "Paid"
+        ],
+        [
+          "Bubble",
+          "bubble.io",
+          "No-code applications",
+          "Freemium"
+        ],
+        [
+          "FlutterFlow",
+          "flutterflow.io",
+          "Mobile and web apps",
+          "Freemium"
+        ],
+        [
+          "Softr",
+          "softr.io",
+          "Portals and internal apps",
+          "Freemium"
+        ],
+        [
+          "Glide",
+          "glideapps.com",
+          "Apps built from data",
+          "Freemium"
+        ],
+        [
+          "Builder.io",
+          "builder.io",
+          "AI-assisted web development",
+          "Freemium"
+        ],
+        [
+          "Dora AI",
+          "dora.run",
+          "Interactive website design",
+          "Varies"
+        ]
+      ]
+    },
+    {
+      "name": "Research, study and education",
+      "tools": [
+        [
+          "NotebookLM",
+          "notebooklm.google",
+          "Ask questions about your own documents",
+          "Freemium"
+        ],
+        [
+          "Elicit",
+          "elicit.com",
+          "Scientific research",
+          "Freemium"
+        ],
+        [
+          "Consensus",
+          "consensus.app",
+          "Answers from research papers",
+          "Freemium"
+        ],
+        [
+          "SciSpace",
+          "scispace.com",
+          "Understand academic papers",
+          "Freemium"
+        ],
+        [
+          "ResearchRabbit",
+          "researchrabbit.ai",
+          "Discover related papers",
+          "Free"
+        ],
+        [
+          "Semantic Scholar",
+          "semanticscholar.org",
+          "Find academic papers",
+          "Free"
+        ],
+        [
+          "Explainpaper",
+          "explainpaper.com",
+          "Explain research papers",
+          "Freemium"
+        ],
+        [
+          "ChatPDF",
+          "chatpdf.com",
+          "Ask questions about PDFs",
+          "Freemium"
+        ],
+        [
+          "Humata AI",
+          "humata.ai",
+          "Document question-answering",
+          "Freemium"
+        ],
+        [
+          "Knowt",
+          "knowt.com",
+          "Study notes and flashcards",
+          "Freemium"
+        ],
+        [
+          "Quizlet",
+          "quizlet.com",
+          "Flashcards and learning tools",
+          "Freemium"
+        ],
+        [
+          "Khanmigo",
+          "khanacademy.org/khan-labs",
+          "AI tutoring. Access and pricing vary",
+          "Varies"
+        ],
+        [
+          "Duolingo Max",
+          "duolingo.com",
+          "Language learning with AI",
+          "Varies"
+        ],
+        [
+          "Question AI",
+          "question.ai",
+          "Homework assistance",
+          "Freemium"
+        ],
+        [
+          "Wolfram Alpha",
+          "wolframalpha.com",
+          "Maths and computational questions",
+          "Freemium"
+        ]
+      ]
+    },
+    {
+      "name": "Presentations and office productivity",
+      "tools": [
+        [
+          "Gamma",
+          "gamma.app",
+          "Presentations and web documents",
+          "Freemium"
+        ],
+        [
+          "Beautiful.ai",
+          "beautiful.ai",
+          "Professional presentations",
+          "Paid"
+        ],
+        [
+          "Microsoft 365 Copilot",
+          "microsoft.com/microsoft-365/copilot",
+          "Word, Excel, PowerPoint tasks",
+          "Varies"
+        ],
+        [
+          "Google Workspace with Gemini",
+          "workspace.google.com",
+          "Gmail, Docs, Sheets, Slides",
+          "Varies"
+        ],
+        [
+          "Notion AI",
+          "notion.com/product/ai",
+          "Notes, knowledge, projects",
+          "Varies"
+        ],
+        [
+          "ClickUp AI",
+          "clickup.com",
+          "Project management and writing",
+          "Varies"
+        ],
+        [
+          "Asana AI",
+          "asana.com",
+          "Work management",
+          "Varies"
+        ],
+        [
+          "Coda AI",
+          "coda.io",
+          "Documents and team workflows",
+          "Freemium"
+        ],
+        [
+          "Taskade AI",
+          "taskade.com",
+          "AI projects and tasks",
+          "Freemium"
+        ],
+        [
+          "Airtable AI",
+          "airtable.com",
+          "Databases and workflows",
+          "Varies"
+        ],
+        [
+          "Mem",
+          "mem.ai",
+          "AI-powered notes",
+          "Freemium"
+        ],
+        [
+          "Otter.ai",
+          "otter.ai",
+          "Meeting transcription and summaries",
+          "Freemium"
+        ],
+        [
+          "Fireflies.ai",
+          "fireflies.ai",
+          "Meeting notes and transcription",
+          "Freemium"
+        ],
+        [
+          "Fathom",
+          "fathom.video",
+          "Meeting recording and summaries",
+          "Freemium"
+        ],
+        [
+          "tl;dv",
+          "tldv.io",
+          "Meeting recordings and highlights",
+          "Freemium"
+        ]
+      ]
+    },
+    {
+      "name": "SEO, marketing and social media",
+      "tools": [
+        [
+          "Surfer SEO",
+          "surferseo.com",
+          "SEO content optimization",
+          "Paid"
+        ],
+        [
+          "Semrush",
+          "semrush.com",
+          "SEO research and marketing",
+          "Freemium"
+        ],
+        [
+          "Ahrefs",
+          "ahrefs.com",
+          "Backlinks and SEO analysis",
+          "Freemium"
+        ],
+        [
+          "Frase",
+          "frase.io",
+          "SEO research and content briefs",
+          "Paid"
+        ],
+        [
+          "Clearscope",
+          "clearscope.io",
+          "Content optimization",
+          "Paid"
+        ],
+        [
+          "HubSpot AI",
+          "hubspot.com",
+          "CRM and marketing",
+          "Freemium"
+        ],
+        [
+          "Mailchimp",
+          "mailchimp.com",
+          "Email marketing",
+          "Freemium"
+        ],
+        [
+          "Brevo",
+          "brevo.com",
+          "Email campaigns and automation",
+          "Freemium"
+        ],
+        [
+          "Ocoya",
+          "ocoya.com",
+          "Social media content",
+          "Paid"
+        ],
+        [
+          "Predis.ai",
+          "predis.ai",
+          "Social posts and ad creatives",
+          "Freemium"
+        ],
+        [
+          "Buffer",
+          "buffer.com",
+          "Social media scheduling",
+          "Freemium"
+        ],
+        [
+          "Hootsuite",
+          "hootsuite.com",
+          "Social media management",
+          "Paid"
+        ],
+        [
+          "AdCreative.ai",
+          "adcreative.ai",
+          "Ad creative generation",
+          "Paid"
+        ],
+        [
+          "Brand24",
+          "brand24.com",
+          "Brand monitoring",
+          "Paid"
+        ],
+        [
+          "Influencity",
+          "influencity.com",
+          "Influencer marketing",
+          "Paid"
+        ]
+      ]
+    },
+    {
+      "name": "Automation and AI agents",
+      "tools": [
+        [
+          "Zapier",
+          "zapier.com",
+          "Connect apps and automate tasks",
+          "Freemium"
+        ],
+        [
+          "Make",
+          "make.com",
+          "Visual workflow automation",
+          "Freemium"
+        ],
+        [
+          "n8n",
+          "n8n.io",
+          "Advanced workflow automation. Self-hosted option",
+          "Freemium"
+        ],
+        [
+          "Microsoft Power Automate",
+          "make.powerautomate.com",
+          "Business workflow automation",
+          "Varies"
+        ],
+        [
+          "Pipedream",
+          "pipedream.com",
+          "Developer automation",
+          "Freemium"
+        ],
+        [
+          "Dify",
+          "dify.ai",
+          "Build AI apps and agents",
+          "Freemium"
+        ],
+        [
+          "Flowise",
+          "flowiseai.com",
+          "Visual AI workflow building",
+          "Freemium"
+        ],
+        [
+          "Langflow",
+          "langflow.org",
+          "Build LLM workflows",
+          "Freemium"
+        ],
+        [
+          "CrewAI",
+          "crewai.com",
+          "Multi-agent workflows",
+          "Freemium"
+        ],
+        [
+          "LangChain",
+          "langchain.com",
+          "Develop AI applications",
+          "Freemium"
+        ],
+        [
+          "Lindy",
+          "lindy.ai",
+          "AI assistants for tasks",
+          "Freemium"
+        ],
+        [
+          "Gumloop",
+          "gumloop.com",
+          "No-code AI automation",
+          "Freemium"
+        ],
+        [
+          "Relevance AI",
+          "relevanceai.com",
+          "Build AI agents",
+          "Freemium"
+        ],
+        [
+          "Bardeen",
+          "bardeen.ai",
+          "Browser and business automation",
+          "Freemium"
+        ],
+        [
+          "OpenAI API",
+          "platform.openai.com",
+          "Add AI to applications. Usage-based",
+          "Varies"
+        ]
+      ]
+    },
+    {
+      "name": "Data analysis and business intelligence",
+      "tools": [
+        [
+          "Julius AI",
+          "julius.ai",
+          "Analyse spreadsheets and data",
+          "Freemium"
+        ],
+        [
+          "ChatGPT Data Analysis",
+          "chatgpt.com",
+          "Files, calculations and charts",
+          "Freemium"
+        ],
+        [
+          "Power BI Copilot",
+          "powerbi.microsoft.com",
+          "Business intelligence",
+          "Varies"
+        ],
+        [
+          "Tableau AI",
+          "tableau.com",
+          "Business data visualization",
+          "Varies"
+        ],
+        [
+          "Rows AI",
+          "rows.com",
+          "AI-powered spreadsheets",
+          "Freemium"
+        ],
+        [
+          "Polymer",
+          "polymersearch.com",
+          "Explore and visualize data",
+          "Freemium"
+        ],
+        [
+          "Hex",
+          "hex.tech",
+          "Data science and analytics",
+          "Freemium"
+        ],
+        [
+          "Dataiku",
+          "dataiku.com",
+          "Enterprise AI and data science",
+          "Freemium"
+        ],
+        [
+          "Obviously AI",
+          "obviously.ai",
+          "No-code predictive analytics",
+          "Varies"
+        ],
+        [
+          "KNIME",
+          "knime.com",
+          "Data analytics workflows. Open source",
+          "Freemium"
+        ]
+      ]
+    },
+    {
+      "name": "Customer support, sales and CRM",
+      "tools": [
+        [
+          "Intercom Fin",
+          "intercom.com/fin",
+          "AI customer support",
+          "Paid"
+        ],
+        [
+          "Zendesk AI",
+          "zendesk.com",
+          "Customer service automation",
+          "Varies"
+        ],
+        [
+          "Freshdesk AI",
+          "freshworks.com/freshdesk",
+          "Customer support",
+          "Freemium"
+        ],
+        [
+          "Tidio",
+          "tidio.com",
+          "Website chatbots",
+          "Freemium"
+        ],
+        [
+          "Manychat",
+          "manychat.com",
+          "Instagram and messaging automation",
+          "Freemium"
+        ],
+        [
+          "Botpress",
+          "botpress.com",
+          "AI chatbot development",
+          "Freemium"
+        ],
+        [
+          "Voiceflow",
+          "voiceflow.com",
+          "Voice and chat assistants",
+          "Freemium"
+        ],
+        [
+          "Drift",
+          "drift.com",
+          "Conversational marketing",
+          "Paid"
+        ],
+        [
+          "Salesforce Einstein",
+          "salesforce.com",
+          "Sales and CRM AI",
+          "Varies"
+        ],
+        [
+          "Apollo.io",
+          "apollo.io",
+          "Sales prospecting and outreach",
+          "Freemium"
+        ],
+        [
+          "Clay",
+          "clay.com",
+          "Lead research and enrichment",
+          "Freemium"
+        ]
+      ]
+    },
+    {
+      "name": "Translation, transcription and accessibility",
+      "tools": [
+        [
+          "DeepL",
+          "deepl.com",
+          "Translation",
+          "Freemium"
+        ],
+        [
+          "Google Translate",
+          "translate.google.com",
+          "Multilingual translation",
+          "Free"
+        ],
+        [
+          "Microsoft Translator",
+          "translator.microsoft.com",
+          "Text and conversation translation",
+          "Free"
+        ],
+        [
+          "Whisper.cpp",
+          "github.com/ggml-org/whisper.cpp",
+          "Local speech transcription. Open source",
+          "Free"
+        ],
+        [
+          "TurboScribe",
+          "turboscribe.ai",
+          "Audio and video transcription",
+          "Freemium"
+        ],
+        [
+          "Happy Scribe",
+          "happyscribe.com",
+          "Transcription and subtitles",
+          "Freemium"
+        ],
+        [
+          "Rask AI",
+          "rask.ai",
+          "Video translation and dubbing",
+          "Paid"
+        ],
+        [
+          "Maestra AI",
+          "maestra.ai",
+          "Subtitles and dubbing",
+          "Paid"
+        ],
+        [
+          "Ava",
+          "ava.me",
+          "Live captioning",
+          "Freemium"
+        ],
+        [
+          "Be My Eyes",
+          "bemyeyes.com",
+          "Visual help for blind and low-vision users",
+          "Free"
+        ]
+      ]
+    },
+    {
+      "name": "Developers, researchers and open-source models",
+      "tools": [
+        [
+          "Hugging Face",
+          "huggingface.co",
+          "Find and run AI models",
+          "Freemium"
+        ],
+        [
+          "Ollama",
+          "ollama.com",
+          "Run AI models locally",
+          "Free"
+        ],
+        [
+          "LM Studio",
+          "lmstudio.ai",
+          "Run local language models",
+          "Free"
+        ],
+        [
+          "Open WebUI",
+          "openwebui.com",
+          "Local AI chat interface",
+          "Free"
+        ],
+        [
+          "vLLM",
+          "vllm.ai",
+          "Serve language models. Open source",
+          "Free"
+        ],
+        [
+          "Replicate",
+          "replicate.com",
+          "Run AI models through APIs",
+          "Varies"
+        ],
+        [
+          "Together AI",
+          "together.ai",
+          "AI model APIs",
+          "Varies"
+        ],
+        [
+          "GroqCloud",
+          "console.groq.com",
+          "Fast AI inference APIs",
+          "Freemium"
+        ],
+        [
+          "Fireworks AI",
+          "fireworks.ai",
+          "Model inference and APIs",
+          "Varies"
+        ],
+        [
+          "OpenRouter",
+          "openrouter.ai",
+          "Access many AI models",
+          "Freemium"
+        ],
+        [
+          "Pinecone",
+          "pinecone.io",
+          "Vector database for AI apps",
+          "Freemium"
+        ],
+        [
+          "Weaviate",
+          "weaviate.io",
+          "Vector search and retrieval",
+          "Freemium"
+        ],
+        [
+          "Chroma",
+          "trychroma.com",
+          "Vector database for AI",
+          "Freemium"
+        ],
+        [
+          "Weights & Biases",
+          "wandb.ai",
+          "Track AI experiments",
+          "Freemium"
+        ]
+      ]
+    },
+    {
+      "name": "Best free tools to start with",
+      "tools": [
+        [
+          "ChatGPT",
+          "chatgpt.com",
+          "General work and learning",
+          "Freemium"
+        ],
+        [
+          "Google Gemini",
+          "gemini.google.com",
+          "General work and learning",
+          "Freemium"
+        ],
+        [
+          "Claude",
+          "claude.ai",
+          "General work and learning",
+          "Freemium"
+        ],
+        [
+          "Microsoft Copilot",
+          "copilot.microsoft.com",
+          "General work and learning",
+          "Freemium"
+        ],
+        [
+          "DeepSeek",
+          "chat.deepseek.com",
+          "General work and learning",
+          "Freemium"
+        ],
+        [
+          "Canva",
+          "canva.com",
+          "Design and images",
+          "Freemium"
+        ],
+        [
+          "Adobe Firefly",
+          "firefly.adobe.com",
+          "Design and images",
+          "Freemium"
+        ],
+        [
+          "Ideogram",
+          "ideogram.ai",
+          "Design and images",
+          "Freemium"
+        ],
+        [
+          "Leonardo AI",
+          "leonardo.ai",
+          "Design and images",
+          "Freemium"
+        ],
+        [
+          "Perplexity",
+          "perplexity.ai",
+          "Research and study",
+          "Freemium"
+        ],
+        [
+          "NotebookLM",
+          "notebooklm.google",
+          "Research and study",
+          "Freemium"
+        ],
+        [
+          "Semantic Scholar",
+          "semanticscholar.org",
+          "Research and study",
+          "Free"
+        ],
+        [
+          "ResearchRabbit",
+          "researchrabbit.ai",
+          "Research and study",
+          "Free"
+        ],
+        [
+          "GitHub Copilot",
+          "github.com/features/copilot",
+          "Coding and app building",
+          "Freemium"
+        ],
+        [
+          "Replit",
+          "replit.com",
+          "Coding and app building",
+          "Freemium"
+        ],
+        [
+          "Ollama",
+          "ollama.com",
+          "Coding and app building",
+          "Free"
+        ],
+        [
+          "Continue",
+          "continue.dev",
+          "Coding and app building",
+          "Free"
+        ],
+        [
+          "ElevenLabs",
+          "elevenlabs.io",
+          "Voice and audio",
+          "Freemium"
+        ],
+        [
+          "Adobe Podcast",
+          "podcast.adobe.com",
+          "Voice and audio",
+          "Freemium"
+        ],
+        [
+          "Suno",
+          "suno.com",
+          "Voice and audio",
+          "Freemium"
+        ],
+        [
+          "Whisper",
+          "github.com/openai/whisper",
+          "Voice and audio",
+          "Free"
+        ]
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "animate",
+      "name": "Draw and animate",
+      "sub": "Build your characters and scenes.",
+      "tools": [
+        [
+          "Blender",
+          "https://www.blender.org",
+          "Free 3D animation, no watermark. Steeper to learn.",
+          "Free"
+        ],
+        [
+          "Krita",
+          "https://krita.org",
+          "Free 2D drawing and frame-by-frame animation.",
+          "Free"
+        ],
+        [
+          "OpenToonz",
+          "https://opentoonz.github.io/e/",
+          "Free 2D animation studio used in real productions.",
+          "Free"
+        ],
+        [
+          "Canva",
+          "https://www.canva.com",
+          "Easy animated scenes from templates.",
+          "Free plan"
+        ],
+        [
+          "Animaker",
+          "https://www.animaker.com",
+          "Drag-and-drop cartoon maker. Free exports may carry a watermark.",
+          "Free plan"
+        ],
+        [
+          "Powtoon",
+          "https://www.powtoon.com",
+          "Simple animated videos. Check free plan limits.",
+          "Free plan"
+        ]
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI helpers",
+      "sub": "Speed up scripts, voices and visuals. Add your own original ideas.",
+      "tools": [
+        [
+          "CREAO AI",
+          "https://creao.ai",
+          "AI agent builder. Free plan has 30 credits to start.",
+          "Free plan"
+        ],
+        [
+          "HeyGen",
+          "https://www.heygen.com",
+          "AI video with avatars. Free plan makes up to 3 videos a month.",
+          "Free plan"
+        ],
+        [
+          "Atlabs",
+          "https://www.atlabs.ai",
+          "AI video generator. Free plan gives 2 minutes of video.",
+          "Free plan"
+        ]
+      ]
+    },
+    {
+      "id": "edit",
+      "name": "Edit your video",
+      "sub": "Cut scenes, add voiceover and music.",
+      "tools": [
+        [
+          "CapCut",
+          "https://www.capcut.com",
+          "Easy editor for phone and computer.",
+          "Free plan"
+        ],
+        [
+          "DaVinci Resolve",
+          "https://www.blackmagicdesign.com/products/davinciresolve",
+          "Pro-level editor with a free version.",
+          "Free"
+        ]
+      ]
+    },
+    {
+      "id": "publish",
+      "name": "Publish and earn",
+      "sub": "Upload, set the audience and apply for monetization.",
+      "tools": [
+        [
+          "YouTube Studio",
+          "https://studio.youtube.com",
+          "Upload videos and track subscribers and watch time.",
+          "Free"
+        ],
+        [
+          "Partner Program rules",
+          "https://support.google.com/youtube/answer/72851",
+          "Official requirements to earn ad revenue.",
+          "Guide"
+        ],
+        [
+          "Made for kids",
+          "https://support.google.com/youtube/answer/9527654",
+          "How to set your audience correctly for kids' videos.",
+          "Guide"
+        ]
+      ]
+    }
+  ]
+}
