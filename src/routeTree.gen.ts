@@ -10,7 +10,9 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AuthRouteImport } from './routes/auth'
 import { Route as InstallRouteImport } from './routes/install'
+import { Route as ResetPasswordRouteImport } from './routes/reset-password'
 import { Route as VideoToolkitRouteImport } from './routes/video-toolkit'
 
 const IndexRoute = IndexRouteImport.update({
@@ -18,9 +20,19 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AuthRoute = AuthRouteImport.update({
+  id: '/auth',
+  path: '/auth',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const InstallRoute = InstallRouteImport.update({
   id: '/install',
   path: '/install',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ResetPasswordRoute = ResetPasswordRouteImport.update({
+  id: '/reset-password',
+  path: '/reset-password',
   getParentRoute: () => rootRouteImport,
 } as any)
 const VideoToolkitRoute = VideoToolkitRouteImport.update({
@@ -31,31 +43,45 @@ const VideoToolkitRoute = VideoToolkitRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/auth': typeof AuthRoute
   '/install': typeof InstallRoute
+  '/reset-password': typeof ResetPasswordRoute
   '/video-toolkit': typeof VideoToolkitRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/auth': typeof AuthRoute
   '/install': typeof InstallRoute
+  '/reset-password': typeof ResetPasswordRoute
   '/video-toolkit': typeof VideoToolkitRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/auth': typeof AuthRoute
   '/install': typeof InstallRoute
+  '/reset-password': typeof ResetPasswordRoute
   '/video-toolkit': typeof VideoToolkitRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/install' | '/video-toolkit'
+  fullPaths: '/' | '/auth' | '/install' | '/reset-password' | '/video-toolkit'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/install' | '/video-toolkit'
-  id: '__root__' | '/' | '/install' | '/video-toolkit'
+  to: '/' | '/auth' | '/install' | '/reset-password' | '/video-toolkit'
+  id:
+    | '__root__'
+    | '/'
+    | '/auth'
+    | '/install'
+    | '/reset-password'
+    | '/video-toolkit'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AuthRoute: typeof AuthRoute
   InstallRoute: typeof InstallRoute
+  ResetPasswordRoute: typeof ResetPasswordRoute
   VideoToolkitRoute: typeof VideoToolkitRoute
 }
 
@@ -68,11 +94,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/auth': {
+      id: '/auth'
+      path: '/auth'
+      fullPath: '/auth'
+      preLoaderRoute: typeof AuthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/install': {
       id: '/install'
       path: '/install'
       fullPath: '/install'
       preLoaderRoute: typeof InstallRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/reset-password': {
+      id: '/reset-password'
+      path: '/reset-password'
+      fullPath: '/reset-password'
+      preLoaderRoute: typeof ResetPasswordRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/video-toolkit': {
@@ -87,7 +127,9 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AuthRoute: AuthRoute,
   InstallRoute: InstallRoute,
+  ResetPasswordRoute: ResetPasswordRoute,
   VideoToolkitRoute: VideoToolkitRoute,
 }
 export const routeTree = rootRouteImport
