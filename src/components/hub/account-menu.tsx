@@ -9,8 +9,8 @@ export function AccountMenu() {
   const navigate = useNavigate();
   if (loading) return null;
   if (!user) return <Button variant="outline" asChild><Link to="/auth"><LogIn />Sign in</Link></Button>;
-  const name = (user.user_metadata?.full_name as string) || user.email || "Account";
-  const avatar = user.user_metadata?.avatar_url as string | undefined;
+  const name = (user.user_metadata?.['full_name'] as string) || user.email || "Account";
+  const avatar = user.user_metadata?.['avatar_url'] as string | undefined;
   return (
     <div className="flex items-center gap-2">
       {avatar ? <img src={avatar} alt="" className="h-8 w-8 rounded-full" /> :
